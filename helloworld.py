@@ -1,1 +1,1 @@
-print ("Sanjev's hello world program")
+print("Sanjev's hello world program")
