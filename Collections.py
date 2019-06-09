@@ -92,3 +92,31 @@ print(setM)
 
 setH=setA.symmetric_difference(setB)
 print(setH)
+
+
+"""Dictionaries"""
+
+dictA={"Name":"Sanjev","Age":"25","Profession":"IT"}
+print(dictA)
+dictA["Name"]="Kanax"
+dictA["Age"]=54
+dictA["Profession"]="Teacher"
+print(dictA)
+
+for x in dictA:
+    print(dictA[x])
+for x,y in dictA.items():
+    print(x,y)
+
+if "Teacher" in dictA.values():
+    print(True)
+
+dictA["Marital Status"]="Yes"
+print(dictA)
+
+dictA.pop("Marital Status")
+print(dictA)
+
+myDict=dictA.copy()
+print("New dictionary: ", myDict)
+print(myDict)
