@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="826ea1f9-59cd-4685-8354-fa9e5afc0c9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/recursions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lambda.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,11 +22,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/recursions.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="135">
+              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lambda.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -68,6 +77,7 @@
         <option value="$PROJECT_DIR$/loops.py" />
         <option value="$PROJECT_DIR$/functions.py" />
         <option value="$PROJECT_DIR$/recursions.py" />
+        <option value="$PROJECT_DIR$/lambda.py" />
       </list>
     </option>
   </component>
@@ -116,7 +126,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.recursions">
+  <component name="RunManager" selected="Python.lambda">
     <configuration name="Collections" type="PythonConfigurationType" factoryName="Python">
       <module name="pylearn" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -193,6 +203,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/int.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lambda" type="PythonConfigurationType" factoryName="Python">
+      <module name="pylearn" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lambda.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -289,6 +320,7 @@
       <item itemvalue="Python.Collections" />
       <item itemvalue="Python.functions" />
       <item itemvalue="Python.recursions" />
+      <item itemvalue="Python.lambda" />
       <item itemvalue="Python.helloworld" />
       <item itemvalue="Python.int" />
       <item itemvalue="Python.loops" />
@@ -377,12 +409,18 @@
       <option name="project" value="LOCAL" />
       <updated>1560275255789</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Recursions learning&#10;Can also be called as factorial of a number in this example">
+      <created>1560275631506</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1560275631506</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24869695" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -414,7 +452,8 @@
     <MESSAGE value="List learnings" />
     <MESSAGE value="tuples and sets learnings" />
     <MESSAGE value="Dictionaries learnings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dictionaries learnings" />
+    <MESSAGE value="Recursions learning&#10;Can also be called as factorial of a number in this example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Recursions learning&#10;Can also be called as factorial of a number in this example" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/helloworld.py">
@@ -468,8 +507,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/recursions.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="135">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lambda.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
